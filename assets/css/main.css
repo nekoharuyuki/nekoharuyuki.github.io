@@ -1,6 +1,17 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
 
+:root {
+	--main-text: #333;
+	--main-bg: #fff;
+}
+@media (prefers-color-scheme: dark) {
+	:root {
+		--main-text: #ddd;
+		--main-bg: #000;
+	}
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
